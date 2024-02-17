@@ -67,7 +67,9 @@ const MyClasses: React.FC<Props> = ({ classes }) => {
         <h2 className="text-lg font-semibold mb-2">Added Subjects:</h2>
         <ul>
           {subjects.map((subject, index) => (
-            <li key={index} className="text-gray-700">{subject}>{subject}</li>
+            <li key={index} className="text-gray-700">
+              {subject}
+            </li>
           ))}
         </ul>
       </div>
